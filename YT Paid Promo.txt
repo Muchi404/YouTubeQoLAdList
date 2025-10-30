@@ -1,0 +1,2 @@
+! YT - Paid Promotion Overlay
+youtube.com##.ytp-paid-content-overlay, .ytmPaidContentOverlayHost

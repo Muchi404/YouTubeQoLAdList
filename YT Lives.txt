@@ -1,0 +1,6 @@
+! YT - Hide Live Videos
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer):has(.badge-style-type-live-now-alternate,.yt-spec-avatar-shape--live-ring)
+! YT - Hide VODs/Streamed Videos
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer):has([aria-label~="Streamed"])
+! YT  - Hide VODs/Streamed Videos (backup version - less efficient)
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer):not(:has([aria-label~="Streamed"])) :is(#metadata-line>span,.yt-content-metadata-view-model__metadata-row):last-of-type:has-text(Streamed):upward(ytd-rich-item-renderer,ytd-grid-video-renderer,ytd-compact-video-renderer,ytd-item-section-renderer,ytd-video-renderer)

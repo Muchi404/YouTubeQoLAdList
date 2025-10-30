@@ -1,0 +1,11 @@
+! YT Home - Hide Mixes
+youtube.com##ytd-rich-item-renderer:has([href*="start_radio=1"])
+! YT Sidebar - Hide Mixes
+youtube.com##ytd-compact-radio-renderer, :is(#related yt-lockup-view-model,ytd-compact-video-renderer):has([href*="&start_radio=1"])
+! YT Search- Hide Mixes
+youtube.com##ytd-radio-renderer, :is(ytd-search yt-lockup-view-model,ytd-video-renderer[is-search]):has([href*="&start_radio=1"][aria-label])
+! YT Player - Hide Mixes in Video End Cards
+youtube.com##.ytp-videowall-still[data-is-mix="true"]
+
+! YT Sidebar - Hide "YouTube" (Music) playlists
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
