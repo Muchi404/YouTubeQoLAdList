@@ -1,0 +1,11 @@
+!https://www.youtube.com - Transcript Description
+www.youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer.style-scope
+
+!https://www.youtube.com - Transcript Description #2
+www.youtube.com##.ytd-structured-description-content-renderer.style-scope > .ytd-expandable-metadata-renderer.style-scope
+
+!https://www.youtube.com - Ask Gemini Description
+www.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
+
+!https://www.youtube.com - How This Was Made Description
+www.youtube.com##.ytwHowThisWasMadeSectionViewModelHost
