@@ -1,0 +1,5 @@
+!https://www.youtube.com - Sidebar Nonsense
+www.youtube.com###guide-links-primary
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
